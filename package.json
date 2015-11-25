@@ -1,0 +1,48 @@
+{
+  "name": "promise-until",
+  "version": "1.0.0",
+  "description": "Calls a function repeatedly if a condition returns false and until the condition returns true and then resolves the promise",
+  "author": {
+    "name": "Buster Collings",
+    "email": "busterc@gmail.com",
+    "url": "https://about.me/buster"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "keywords": [
+    "until",
+    "promiseuntil",
+    "contional",
+    "condition",
+    "wait",
+    "loop",
+    "while",
+    "whilst",
+    "dowhilst",
+    "promises",
+    "promise",
+    "do",
+    "dowhile"
+  ],
+  "repository": "busterc/promise-until",
+  "devDependencies": {
+    "gulp": "^3.6.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.9.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^2.1.0",
+    "gulp-babel": "^5.1.0",
+    "del": "^2.0.2",
+    "babel-core": "^5.5.0",
+    "isparta": "^3.0.3"
+  },
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "ISC"
+}
