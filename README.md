@@ -1,4 +1,7 @@
 # promise-until [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/busterc/promise-until.svg)](https://greenkeeper.io/)
+
 > Calls a function repeatedly if a condition returns false and until the condition returns true and then resolves the promise
 
 - See Also
