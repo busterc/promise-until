@@ -29,16 +29,16 @@
   "repository": "busterc/promise-until",
   "devDependencies": {
     "gulp": "^3.6.0",
-    "gulp-eslint": "^1.0.0",
+    "gulp-eslint": "^5.0.0",
     "gulp-exclude-gitignore": "^1.0.0",
-    "gulp-istanbul": "^0.9.0",
-    "gulp-mocha": "^2.0.0",
+    "gulp-istanbul": "^1.1.3",
+    "gulp-mocha": "^6.0.0",
     "gulp-plumber": "^1.0.0",
-    "gulp-nsp": "^2.1.0",
-    "gulp-babel": "^5.1.0",
-    "del": "^2.0.2",
-    "babel-core": "^5.5.0",
-    "isparta": "^3.0.3"
+    "gulp-nsp": "^3.0.1",
+    "gulp-babel": "^7.0.1",
+    "del": "^3.0.0",
+    "babel-core": "^6.26.3",
+    "isparta": "^4.1.0"
   },
   "scripts": {
     "prepublish": "gulp prepublish",
